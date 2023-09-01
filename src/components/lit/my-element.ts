@@ -1,41 +1,58 @@
 import { LitElement, html, css } from "lit";
 
 export class MyElement extends LitElement {
+  static styles = css`
+    h1 {
+      font-size: 3.052em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    a {
+      color: var(--accent);
+    }
+    a:hover {
+      color: var(--accent);
+    }
+  `;
+
   render() {
     return html`
-        <h1>🧑‍🚀 Hello, Astronaut!</h1>
-        <p>
-          Welcome to the official <a href="https://astro.build/">Astro</a> blog
-          starter template. This template serves as a lightweight,
-          minimally-styled starting point for anyone looking to build a personal
-          website, blog, or portfolio with Astro.
-        </p>
-        <p>Here are a few ideas on how to get started with the template:</p>
-        <ul>
-          <li>Edit this page in <code>src/pages/index.astro</code></li>
-          <li>
-            Edit the site header items in
-            <code>src/components/Header.astro</code>
-          </li>
-          <li>
-            Add your name to the footer in
-            <code>src/components/Footer.astro</code>
-          </li>
-          <li>
-            Check out the included blog posts in <code>src/pages/blog/</code>
-          </li>
-          <li>
-            Customize the blog post page layout in
-            <code>src/layouts/BlogPost.astro</code>
-          </li>
-        </ul>
-        <p>
-          Looking for a blog template with a bit more personality? Check out
-          <a href="https://github.com/Charca/astro-blog-template"
-            >astro-blog-template
+      <h1>🧑‍🚀 fsyud</h1>
+      <p>
+        A free soul, in this blog, will share some daily Development essay.
+        reading notes, human geography
+      </p>
+      <p>some of my projects</p>
+      <ul>
+        <li>
+          implement a mini
+          <a href="https://github.com/ligdy7/swr-min">swr-min</a>.
+        </li>
+        <li>
+          some of <a href="https://github.com/ligdy7/ho-hooks">react hooks</a>.
+        </li>
+        <li>
+          an expandable
+          <a href="https://github.com/ligdy7/ho-hooks"
+            >Chrome bookmarks Quick Search</a
+          >.
+        </li>
+        <li>
+          A cube rotation touch program<a
+            href="https://github.com/ligdy7/uni-3d-translate "
+            >uni-3d-translate
           </a>
-          by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-        </p>
+        </li>
+        <li>
+          a ssr website <a href="https://github.com/ligdy7/qwikbg ">qwikbg </a>
+        </li>
+        <li>...</li>
+      </ul>
+      <p>
+        You can contact me via
+        <a href="mailto: fsyud7@163.com">email</a>
+      </p>
     `;
   }
 }
