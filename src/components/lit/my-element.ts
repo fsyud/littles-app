@@ -39,8 +39,8 @@ export class MyElement extends LitElement {
           >.
         </li>
         <li>
-          A cube rotation touch program<a
-            href="https://github.com/ligdy7/uni-3d-translate "
+          A cube rotation touch program
+          <a href="https://github.com/ligdy7/uni-3d-translate "
             >uni-3d-translate
           </a>
         </li>
