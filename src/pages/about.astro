@@ -1,16 +1,15 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
-import { OneElement } from '../components/lit/one-elment.ts';
+import Layout from "../layouts/BlogPost.astro";
+import { OneElement } from "../components/lit/one-elment.ts";
 ---
 
 <Layout
-	title="About"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage="/blog-placeholder-about.jpg"
+  title="About"
+  description="Lorem ipsum dolor sit amet"
+  pubDate={new Date("August 08 2021")}
+  heroImage="/blog-placeholder-about.jpg"
 >
-<OneElement client:visible>
-	<p>This site is built based on astro and lit</p>
-</OneElement>
-	
+  <OneElement client:visible>
+    <p>This site is built based on astro and lit</p>
+  </OneElement>
 </Layout>
