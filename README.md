@@ -1,5 +1,9 @@
 # Astro  + Lit Blog
 
+![ishot-1](https://github.com/ligdy7/littles-app/assets/26371465/5a16f7ac-d98c-451b-be91-ac44777b7e73)
+![ishot-2](https://github.com/ligdy7/littles-app/assets/26371465/a1169fd8-5eac-47b7-bc82-895a155b0399)
+
+
 ```
 npm create astro@latest -- --template blog
 ```
