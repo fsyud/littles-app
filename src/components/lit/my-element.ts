@@ -7,6 +7,7 @@ export class MyElement extends LitElement {
   render() {
     return html`
       <h1>🧑‍🚀 fsyud</h1>
+      <p>A developer</p>
       <p>
         A free soul, in this blog, will share some daily Development essay.
         reading notes, human geography
