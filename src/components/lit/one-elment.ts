@@ -1,20 +1,8 @@
 import { LitElement, html, css } from "lit";
+import { styles } from "./styles.ts";
 
 export class OneElement extends LitElement {
-  static styles = css`
-    h1 {
-      font-size: 3.052em;
-    }
-    p {
-      margin-bottom: 1em;
-    }
-    a {
-      color: var(--accent);
-    }
-    a:hover {
-      color: var(--accent);
-    }
-  `;
+  static styles = styles;
 
   render() {
     return html` <slot></slot> `;
