@@ -3,7 +3,7 @@ import { LitElement, html, css } from "lit";
 export class MyElement extends LitElement {
   static styles = css`
     h1 {
-      font-size: 3.052em;
+      font-size: 2rem;
     }
     p {
       margin-bottom: 1em;
@@ -13,6 +13,12 @@ export class MyElement extends LitElement {
     }
     a:hover {
       color: var(--accent);
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    ul {
+      font-size: 1.1rem;
     }
   `;
 
