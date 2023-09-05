@@ -1,11 +1,11 @@
-import { LitElement, html, css } from "lit";
+import { LitElement, html } from "lit";
 import { styles } from "./styles.ts";
 
 export class OneElement extends LitElement {
   static styles = styles;
 
   render() {
-    return html` <slot></slot> `;
+    return html`<slot></slot>`;
   }
 }
 
