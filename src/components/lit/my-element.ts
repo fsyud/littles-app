@@ -27,7 +27,7 @@ export class MyElement extends LitElement {
         </li>
         <li>
           an expandable
-          <a href="https://github.com/ligdy7/ho-hooks" target="_blank"
+          <a href="https://github.com/ligdy7/bookmarks-quick-search" target="_blank"
             >Chrome bookmarks Quick Search</a
           >.
         </li>
