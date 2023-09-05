@@ -5,9 +5,6 @@ export const styles = [
     h1 {
       font-size: 2rem;
     }
-    p {
-      margin-bottom: 1em;
-    }
     a {
       color: var(--accent);
     }
@@ -15,10 +12,11 @@ export const styles = [
       color: var(--accent);
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      margin: 0 0.2rem;
     }
     ul {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
   `,
 ];

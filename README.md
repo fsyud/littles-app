@@ -42,6 +42,21 @@ The `src/content/` directory contains "collections" of related Markdown and MDX 
 
 Any static assets, like images, can be placed in the `public/` directory.
 
+## mdx
+
+> Example
+
+Here is how you import and use a UI component inside of MDX.  
+When you open this page in the browser, you should see the clickable button below.
+
+```js
+import HeaderLink from '@components/HeaderLink.astro';
+
+<HeaderLink href="#" onclick="alert('clicked!')">
+	Embedded component in MDX
+</HeaderLink>
+```
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
