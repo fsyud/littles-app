@@ -4,9 +4,11 @@ import { styles } from "./styles.ts";
 export class MyElement extends LitElement {
   static styles = styles;
 
+
   render() {
+
     return html`
-      <h1>🏔️ fsyud</h1>
+      <div class="head-title">🏔️ fsyud</div>
       <p>A developer</p>
       <p>
         A free soul, in this blog, will share some daily Development essay.

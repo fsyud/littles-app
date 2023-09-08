@@ -14,7 +14,7 @@ const posts = (await getCollection("blog")).sort(
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title="Fsyud | Blog" description={SITE_DESCRIPTION} />
+    <BaseHead title="Blog" description={SITE_DESCRIPTION} />
     <style>
       main {
         width: 960px;
@@ -43,7 +43,7 @@ const posts = (await getCollection("blog")).sort(
         width: 100%;
       }
       ul li:first-child .title {
-        font-size: 2.369rem;
+        font-size: 1.8rem;
       }
       ul li img {
         margin-bottom: 0.5rem;
@@ -80,7 +80,7 @@ const posts = (await getCollection("blog")).sort(
           margin-bottom: 0;
         }
         ul li:first-child .title {
-          font-size: 1.563em;
+          font-size: 1.3em;
         }
       }
 
@@ -104,7 +104,7 @@ const posts = (await getCollection("blog")).sort(
                     src={post.data.heroImage}
                     alt=""
                   />
-                  <h4 class="title">{post.data.title}</h4>
+                  <h3 class="title">{post.data.title}</h3>
                   <p class="date">
                     <FormattedDate date={post.data.pubDate} />
                   </p>

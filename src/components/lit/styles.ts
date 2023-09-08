@@ -2,7 +2,7 @@ import { css } from "lit";
 
 export const styles = [
   css`
-    h1 {
+    .head-title {
       font-size: 2rem;
     }
     a {

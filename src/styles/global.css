@@ -40,7 +40,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
+	font-size: 1.1rem;
 	line-height: 1.7;
 }
 main {
@@ -89,11 +89,7 @@ p {
 }
 
 ul > li {
-	font-size: 0.812em;
-}
-.prose p {
-	margin-bottom: 2em;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 textarea {
 	width: 100%;
@@ -118,6 +114,7 @@ code {
 pre {
 	padding: 1.5em;
 	border-radius: 8px;
+	font-size: 1rem;
 }
 pre > code {
 	all: unset;
@@ -157,4 +154,8 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+.main-home {
+	padding: 2em 1em 4em 1em
 }
