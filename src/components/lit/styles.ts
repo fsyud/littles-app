@@ -18,5 +18,9 @@ export const styles = [
     ul {
       font-size: 1.2rem;
     }
+
+    .p-title {
+      font-size:1.2rem;
+    }
   `,
 ];

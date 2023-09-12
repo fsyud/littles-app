@@ -2,7 +2,7 @@
 title: 探索typescript类
 description: '传统方法中，JavaScript 通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 class。'
 pubDate: 'Jul 08 2023'
-heroImage: '/b3.jpg'
+heroImage: '/blog/b3.jpg'
 ---
 
 # 类
