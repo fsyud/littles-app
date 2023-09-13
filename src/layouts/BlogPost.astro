@@ -81,6 +81,20 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
             <hr />
           </div>
           <slot />
+          <giscus-widget
+            id="comments"
+            repo="ligdy7/littles-app"
+            repoid="R_kgDOKOGAjg"
+            category="Announcements"
+            categoryid="DIC_kwDOH5j3qs4CRHAo"
+            mapping="pathname"
+            term="Welcome to fsyud"
+            reactionsenabled="1"
+            emitmetadata="0"
+            inputposition="top"
+            theme="light"
+            lang="zh-CN"
+            loading="lazy"></giscus-widget>
         </div>
       </article>
     </main>
