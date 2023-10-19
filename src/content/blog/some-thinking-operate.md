@@ -1,5 +1,5 @@
 ---
-title: "日常技术随想-计算机操作系统"
+title: "summary-计算机操作系统"
 description: "关于js、css、计算机"
 pubDate: "July 08 2022"
 heroImage: "/blog/b2.webp"

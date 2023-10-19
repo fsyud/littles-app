@@ -1,5 +1,5 @@
 ---
-title: "日常技术随想-网络"
+title: "summary-网络"
 description: "关于js、css、计算机"
 pubDate: "July 20 2022"
 heroImage: "/blog/b2.webp"

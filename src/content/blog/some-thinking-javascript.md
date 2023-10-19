@@ -1,5 +1,5 @@
 ---
-title: "日常技术随想-js"
+title: "summary-js"
 description: "关于js、css、计算机"
 pubDate: "July 28 2022"
 heroImage: "/blog/b2.webp"
