@@ -1,7 +1,6 @@
 ---
 import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
 import { SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "@components/FormattedDate.astro";
@@ -23,27 +22,18 @@ const posts = (await getCollection("blog")).sort(
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
+        flex-direction: column;
         list-style-type: none;
         margin: 0;
         padding: 0;
       }
       ul li {
-        width: calc(50% - 1rem);
+        width: 100%;
+        text-align: center;
       }
       ul li * {
         text-decoration: none;
         transition: 0.2s ease;
-      }
-      ul li:first-child {
-        width: 100%;
-        margin-bottom: 1rem;
-        text-align: center;
-      }
-      ul li:first-child img {
-        width: 100%;
-      }
-      ul li:first-child .title {
-        font-size: 1.8rem;
       }
       ul li img {
         margin-bottom: 0.5rem;
@@ -98,12 +88,6 @@ const posts = (await getCollection("blog")).sort(
             posts.map((post) => (
               <li>
                 <a href={`/blog/${post.slug}/`}>
-                  <img
-                    width={720}
-                    height={360}
-                    src={post.data.heroImage}
-                    alt=""
-                  />
                   <h3 class="title">{post.data.title}</h3>
                   <p class="date">
                     <FormattedDate date={post.data.pubDate} />
@@ -115,6 +99,5 @@ const posts = (await getCollection("blog")).sort(
         </ul>
       </section>
     </main>
-    <Footer />
   </body>
 </html>

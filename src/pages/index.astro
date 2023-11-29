@@ -1,7 +1,6 @@
 ---
 import BaseHead from "@components/BaseHead.astro";
 import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
 import { MyElement } from "@components/lit/my-element.ts";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
@@ -14,9 +13,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
   <body>
     <Header title={SITE_TITLE} />
     <main class="main-home">
-      <!-- <img width={1020} height={510} src='/blog/b1.webp' alt="" /> -->
       <MyElement client:visible />
     </main>
-    <Footer />
   </body>
 </html>
